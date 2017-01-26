@@ -180,7 +180,7 @@ public class LineNumbersTextPane extends JXTextPane {
     public class LineNumbersSidePane extends JPanel {
 
         LineNumbersTextPane _editor;
-        private boolean updateFont;
+        private boolean updateFont = true;
         private int fontHeight;
         private int fontDesc;
         private int starting_y;
